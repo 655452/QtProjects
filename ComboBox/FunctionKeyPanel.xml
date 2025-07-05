@@ -1,0 +1,57 @@
+<FunctionKeyMap>
+    <Component  name="c1" action="cvalue">
+        <CKey key="F1" action="action1">
+                <Key key="F1" action="--">HomeTab</Key>
+                <Key key="F2" action="--">DiscoverTab</Key>
+                <Key key="F3" action="Activity">
+                        <Key key="F1" action="--">HomeTabA</Key>
+                        <Key key="F2" action="DiscoverAct">
+                                <Key key="F1" action="--">HomeTabA</Key>
+                                <Key key="F2" action="--">DiscoverTabA</Key>
+                                <Key key="F3" action="--">ActivityTabA</Key>
+                                <Key key="F9" action="--">BackA</Key>
+                        </Key>
+                        <Key key="F3" action="--">ActivityTabA</Key>
+                        <Key key="F9" action="--">BackA</Key>
+                </Key>
+                <Key key="F9" action="--">Back</Key>
+        </CKey>
+        <CKey key="F2" action="action2">
+                <Key key="F1" action="--">HomeTab2</Key>
+                <Key key="F2" action="--">DiscoverTab2</Key>
+                <Key key="F3" action="--">ActivityTab2</Key>\
+                <Key key="F9" action="--">Back</Key>
+        </CKey>
+        <CKey key="F3" action="--">
+                <Key key="F1" action="--">HomeTab2</Key>
+                <Key key="F2" action="--">DiscoverTab2</Key>
+                <Key key="F3" action="--">ActivityTab2</Key>
+                <Key key="F9" action="--">Back</Key>
+        </CKey>
+        <CKey key="F9" action="--">
+
+        </CKey>
+    </Component>
+
+    <Component name="c2" >
+        <CKey key="F1" action="action4">
+                <Key key="F1" action="--">HomeTabC2f1</Key>
+                <Key key="F2" action="--">DiscoverTabC2f2</Key>
+                <Key key="F3" action="--">ActivityTabC2f3</Key>
+                <Key key="F9" action="--">Back</Key>
+        </CKey>
+        <CKey key="F2" action="action3">
+                <Key key="F1" action="--">HomeTabC2f2</Key>
+                <Key key="F2" action="--">DiscoverTabf2</Key>
+                <Key key="F3" action="--">ActivityTabF3</Key>
+                <Key key="F9" action="--">Back</Key>
+        </CKey>
+        <CKey key="F3" action="--">
+        </CKey>
+        <CKey key="F9" action="--">
+        </CKey>
+    </Component>
+</FunctionKeyMap>
+
+
+

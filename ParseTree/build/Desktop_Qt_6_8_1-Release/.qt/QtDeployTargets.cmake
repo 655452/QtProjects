@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appParseTree_FILE /home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/appParseTree)
+set(__QT_DEPLOY_TARGET_appParseTree_TYPE EXECUTABLE)

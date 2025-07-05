@@ -1,0 +1,97 @@
+{
+    "classes": [
+        {
+            "className": "ActionEventManager",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "activeFunct1",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "triggerAction",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "argument",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "triggerAction",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "methodName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "args",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "invokeByName",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "methodName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "isCloned": true,
+                    "name": "invokeByName",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ActionEventManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "actionTriggered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ActionEventManager.h",
+    "outputRevision": 68
+}

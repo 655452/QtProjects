@@ -1,0 +1,272 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ActionEventManager",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "activeFunct1",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "triggerAction",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "argument",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "triggerAction",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "methodName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "args",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "invokeByName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "methodName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "isCloned": true,
+                        "name": "invokeByName",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ActionEventManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "actionTriggered",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ActionEventManager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ExposedObjectRegistry",
+                "lineNumber": 5,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "objectName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "methodName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "args",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "invoke",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "objectName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "methodName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "isCloned": true,
+                        "name": "invoke",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ExposedObjectRegistry",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ExposedObjectRegistry.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "TreeNavigator",
+                "lineNumber": 136,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "traverseForward",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "traverseBackward",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "component",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "setComponent",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "currentChildren",
+                        "notify": "currentNodeChanged",
+                        "read": "currentChildren",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "currentAction",
+                        "notify": "currentNodeChanged",
+                        "read": "currentAction",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "currentKey",
+                        "notify": "currentNodeChanged",
+                        "read": "currentKey",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "activeKeyData",
+                        "notify": "currentNodeChanged",
+                        "read": "activeKeyData",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantMap",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "TreeNavigator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "currentNodeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "TreeNavigator.h",
+        "outputRevision": 68
+    }
+]

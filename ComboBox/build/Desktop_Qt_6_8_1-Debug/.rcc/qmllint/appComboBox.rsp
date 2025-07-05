@@ -1,0 +1,13 @@
+--bare
+-I
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug
+-I
+/home/asit/Qt/6.8.1/gcc_64/qml
+--resource
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/qmake_ComboBox.qrc
+--resource
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/appComboBox_raw_qml_0.qrc
+/home/asit/ComboBox/main.qml
+/home/asit/ComboBox/TreeItem.qml
+/home/asit/ComboBox/ExpandableSection.qml
+/home/asit/ComboBox/PieMenu.qml

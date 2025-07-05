@@ -1,0 +1,11 @@
+# ninja log v6
+6	715	1751734215593694411	MulticastSender_autogen/timestamp	ff417aaf8c6d44d4
+6	715	1751734215593694411	MulticastSender_autogen/mocs_compilation.cpp	ff417aaf8c6d44d4
+6	715	1751734215593694411	/home/asit/Documents/AsitEmpire/ARCH/MulticastSender/build/Desktop_Qt_6_8_1-Release/MulticastSender_autogen/timestamp	ff417aaf8c6d44d4
+6	715	1751734215593694411	/home/asit/Documents/AsitEmpire/ARCH/MulticastSender/build/Desktop_Qt_6_8_1-Release/MulticastSender_autogen/mocs_compilation.cpp	ff417aaf8c6d44d4
+716	845	1751734215750694412	MulticastSender_autogen/EWIEGA46WW/qrc_res.cpp	892db20a36378597
+716	845	1751734215750694412	/home/asit/Documents/AsitEmpire/ARCH/MulticastSender/build/Desktop_Qt_6_8_1-Release/MulticastSender_autogen/EWIEGA46WW/qrc_res.cpp	892db20a36378597
+846	918	1751734215754694412	CMakeFiles/MulticastSender.dir/MulticastSender_autogen/EWIEGA46WW/qrc_res.cpp.o	bd3578ebeda1eb0a
+845	4657	1751734215753694412	CMakeFiles/MulticastSender.dir/MulticastSender_autogen/mocs_compilation.cpp.o	c6342a2fb509bbac
+846	5148	1751734215754694412	CMakeFiles/MulticastSender.dir/multicastsender.cpp.o	3c4bfd965f06a113
+5148	5824	1751734220056694438	libMulticastSender.so	d74be676a635f5ae

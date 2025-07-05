@@ -1,0 +1,8 @@
+# ninja log v6
+6	606	1751734071035693535	MulticastReceiver_autogen/timestamp	1ad44ba845598781
+6	606	1751734071035693535	MulticastReceiver_autogen/mocs_compilation.cpp	1ad44ba845598781
+6	606	1751734071035693535	/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Release/MulticastReceiver_autogen/timestamp	1ad44ba845598781
+6	606	1751734071035693535	/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Release/MulticastReceiver_autogen/mocs_compilation.cpp	1ad44ba845598781
+607	3740	1751734071056693535	CMakeFiles/MulticastReceiver.dir/multicastreceiver.cpp.o	b299bb73141e256e
+607	5305	1751734071056693535	CMakeFiles/MulticastReceiver.dir/MulticastReceiver_autogen/mocs_compilation.cpp.o	85a29c2016988c41
+5306	6007	1751734075755693563	libMulticastReceiver.so	1d340c29d23c2500

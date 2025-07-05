@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/SmartFooter_autogen",
+	"CMAKE_BINARY_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter",
+	"CMAKE_SOURCE_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter",
+	"INCLUDE_DIR" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/SmartFooter_autogen/include",
+	"INPUTS" : [ "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/FooterWindow.qml" ],
+	"LOCK_FILE" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartFooter_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/home/asit/Qt/6.8.1/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartFooter_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/res.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,29 @@
+<FunctionKeyMap>
+    <Component name="c1">
+        <Key key="F1">
+            <Popup name="popup1">
+                <Key key="F1">HomeTab</Key>
+                <Key key="F2">DiscoverTab</Key>
+                <Key key="F3">ActivityTab</Key>
+            </Popup>
+        </Key>
+        <Key key="F2">
+            <Popup name="popup2">
+                <Key key="F1">HomeTab</Key>
+                <Key key="F2">DiscoverTab</Key>
+                <Key key="F3">ActivityTab</Key>
+            </Popup>
+        </Key>
+    </Component>
+
+    <Component name="c2">
+        <Key key="F1">
+            <Popup name="popup4">
+                <Key key="F1">HomeTab</Key>
+                <Key key="F2">DiscoverTab</Key>
+                <Key key="F3">ActivityTab</Key>
+            </Popup>
+        </Key>
+    </Component>
+</FunctionKeyMap>
+

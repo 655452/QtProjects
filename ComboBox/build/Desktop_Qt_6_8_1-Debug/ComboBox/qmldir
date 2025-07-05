@@ -1,0 +1,7 @@
+module ComboBox
+typeinfo appComboBox.qmltypes
+prefer :/ComboBox/
+TreeItem 1.0 TreeItem.qml
+ExpandableSection 1.0 ExpandableSection.qml
+PieMenu 1.0 PieMenu.qml
+

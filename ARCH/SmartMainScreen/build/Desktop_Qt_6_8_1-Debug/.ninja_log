@@ -1,0 +1,11 @@
+# ninja log v6
+6	768	1751733938057692728	SmartMainScreen_autogen/timestamp	2d98ed29d31bb65f
+6	768	1751733938057692728	SmartMainScreen_autogen/mocs_compilation.cpp	2d98ed29d31bb65f
+6	768	1751733938057692728	/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Debug/SmartMainScreen_autogen/timestamp	2d98ed29d31bb65f
+6	768	1751733938057692728	/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Debug/SmartMainScreen_autogen/mocs_compilation.cpp	2d98ed29d31bb65f
+769	796	1751733938103692728	SmartMainScreen_autogen/EWIEGA46WW/qrc_res.cpp	8da931c18403ab84
+769	796	1751733938103692728	/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Debug/SmartMainScreen_autogen/EWIEGA46WW/qrc_res.cpp	8da931c18403ab84
+797	844	1751733938107692728	CMakeFiles/SmartMainScreen.dir/SmartMainScreen_autogen/EWIEGA46WW/qrc_res.cpp.o	c1a6524ee9433065
+797	4696	1751733938107692728	CMakeFiles/SmartMainScreen.dir/SmartMainScreen_autogen/mocs_compilation.cpp.o	92a1399b7b40c881
+797	5195	1751733938107692728	CMakeFiles/SmartMainScreen.dir/smartmainscreen.cpp.o	2ad048e0a3c7d3cf
+5195	5870	1751733942505692755	/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/lib/libSmartMainScreen.so	4e162cd0435a4ea5

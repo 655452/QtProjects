@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/ParseTree/">
+    <file alias="main.qml">/home/asit/ParseTree/main.qml</file>
+    <file alias="ActionMap.js">/home/asit/ParseTree/ActionMap.js</file>
+    <file alias="res.qrc">/home/asit/ParseTree/res.qrc</file>
+  </qresource>
+</RCC>
+

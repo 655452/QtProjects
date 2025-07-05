@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PopUp2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PopUp2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PopUp2-Release-0ec2196539ecf45503d7.json",
+					"name" : "PopUp2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PopUp2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PopUp2_autogen-Release-990f209da93c57a776fb.json",
+					"name" : "PopUp2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PopUp2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PopUp2_autogen_timestamp_deps-Release-acd7a015260ee744f648.json",
+					"name" : "PopUp2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asit/PopUp2/build/Desktop_Qt_6_8_1-Release",
+		"source" : "/home/asit/PopUp2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

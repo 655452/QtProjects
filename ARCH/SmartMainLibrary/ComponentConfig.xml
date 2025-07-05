@@ -1,0 +1,28 @@
+<Components>
+   <Component Name="mainscreen" Path="/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/lib/libSmartMainScreen.so" />
+    <Component Name="header" Path="/home/asit/Documents/AsitEmpire/ARCH/SmartHeader/lib/libSmartHeader.so" />
+    <Component Name="footer" Path="/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/lib/libSmartFooter.so" />
+     <Component Name="popup" Path="/home/asit/PopUp/lib/libPopUp.so" />
+     <Component Name="popup2" Path="/home/asit/PopUp2/lib/libPopUp2.so" />
+     <Component Name="popup3" Path="/home/asit/Popup3/lib/libPopup3.so" />
+     <Component Name="popup4" Path="/home/asit/PopUp4/lib/libPopUp4.so" />
+
+</Components>
+
+
+<!--<configuration>
+    <Components>
+        <Component>/home/wesee/WORKSPACE/SystemArbitrator/SystemArbitratorApp/SmartHeader/lib/libSmartHeader.so</Component>
+        <Component>/home/wesee/WORKSPACE/SystemArbitrator/SystemArbitratorApp/SmartFooter/lib/libSmartFooter.so</Component>
+        <Component>/home/wesee/WORKSPACE/SystemArbitrator/SystemArbitratorApp/SmartMainScreen/lib/libSmartMainScreen.so</Component>
+    </Components>
+</configuration>
+
+
+<configuration>
+        <Components>
+       <Component Name="mainscreen" Path="D:/DELHI/QT_SHARED_LIB/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/libSmartMainScreen.dll" />
+       <Component Name="header" Path="D:/DELHI/QT_SHARED_LIB/ARCH/SmartHeader/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/libSmartHeader.dll" />
+       <Component Name="footer" Path="D:/DELHI/QT_SHARED_LIB/ARCH/SmartFooter/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/libSmartFooter.dll" />
+    </Components>
+</configuration> -->

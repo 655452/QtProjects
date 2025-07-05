@@ -1,0 +1,5 @@
+/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/CMakeFiles/MulticastReceiver.dir
+/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/CMakeFiles/edit_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/CMakeFiles/MulticastReceiver_autogen_timestamp_deps.dir
+/home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/CMakeFiles/MulticastReceiver_autogen.dir

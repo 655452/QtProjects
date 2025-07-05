@@ -1,0 +1,5 @@
+/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartFooter.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/edit_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/rebuild_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartFooter_autogen_timestamp_deps.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartFooter_autogen.dir

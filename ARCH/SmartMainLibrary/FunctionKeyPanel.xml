@@ -1,0 +1,18 @@
+<FunctionKeyMap>
+    <Component name="c1">
+        <Key key="F1">popup</Key>
+        <Key key="F2">popup2</Key>
+        <Key key="F3">popup5</Key>
+    </Component>
+    <Component name="c2">
+        <Key key="F1">popup4</Key>
+        <Key key="F2">popup3</Key>
+        <Key key="F3">popup6</Key>
+    </Component>
+    <Component name="c3">
+        <Key key="F1">popup7</Key>
+        <Key key="F2">popup8</Key>
+        <Key key="F3">popup9</Key>
+    </Component>
+</FunctionKeyMap>
+

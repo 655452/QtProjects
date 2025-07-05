@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartMainScreen",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainScreen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainScreen-Debug-53187cad9e615f65d45c.json",
+					"name" : "SmartMainScreen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainScreen_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainScreen_autogen-Debug-fa4c481d2beea8a5d00e.json",
+					"name" : "SmartMainScreen_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainScreen_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainScreen_autogen_timestamp_deps-Debug-2711f5e8f9c8d149b4b9.json",
+					"name" : "SmartMainScreen_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Debug",
+		"source" : "/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

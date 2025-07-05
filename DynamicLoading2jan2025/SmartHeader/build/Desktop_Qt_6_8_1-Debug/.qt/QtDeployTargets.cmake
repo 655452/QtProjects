@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SmartHeader_FILE /home/asit/Documents/AsitEmpire/DynamicLoading2jan2025/SmartHeader/lib/libSmartHeader.so)
+set(__QT_DEPLOY_TARGET_SmartHeader_TYPE SHARED_LIBRARY)

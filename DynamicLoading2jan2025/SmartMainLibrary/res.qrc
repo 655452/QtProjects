@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SmartMainLibraryWindow.qml</file>
+    </qresource>
+</RCC>

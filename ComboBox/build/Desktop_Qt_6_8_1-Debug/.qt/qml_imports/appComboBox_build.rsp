@@ -1,0 +1,14 @@
+-rootPath
+/home/asit/ComboBox
+-cmake-output
+-output-file
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/.qt/qml_imports/appComboBox_build.cmake
+-importPath
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/ComboBox
+-importPath
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug
+-importPath
+/home/asit/Qt/6.8.1/gcc_64/qml
+-qrcFiles
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/qmake_ComboBox.qrc
+/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/appComboBox_raw_qml_0.qrc

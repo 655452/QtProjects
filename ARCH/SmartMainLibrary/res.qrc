@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SmartMainLibraryWindow.qml</file>
+        <file>FunctionKeyPanel.xml</file>
+        <file>EventManager.qml</file>
+        <file>FunctionKeyPanelV2.xml</file>
+    </qresource>
+</RCC>

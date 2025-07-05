@@ -1,0 +1,6 @@
+--resource
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/.qt/rcc/qmake_ParseTree.qrc
+--resource
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/.qt/rcc/appParseTree_raw_qml_0.qrc
+/ParseTree/main.qml
+/ParseTree/ActionMap.js

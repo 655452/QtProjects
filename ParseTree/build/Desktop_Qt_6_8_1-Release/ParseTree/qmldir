@@ -1,0 +1,5 @@
+module ParseTree
+typeinfo appParseTree.qmltypes
+prefer :/ParseTree/
+ActionMap 1.0 ActionMap.js
+

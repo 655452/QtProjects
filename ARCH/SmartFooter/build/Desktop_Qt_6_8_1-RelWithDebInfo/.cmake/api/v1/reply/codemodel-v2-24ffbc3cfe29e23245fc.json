@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartFooter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartFooter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartFooter-RelWithDebInfo-36d0ddee7934cbde9b80.json",
+					"name" : "SmartFooter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartFooter_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartFooter_autogen-RelWithDebInfo-6c2f4e6e293e97445608.json",
+					"name" : "SmartFooter_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartFooter_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartFooter_autogen_timestamp_deps-RelWithDebInfo-722e60c60851e536897b.json",
+					"name" : "SmartFooter_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter/build/Desktop_Qt_6_8_1-RelWithDebInfo",
+		"source" : "/home/asit/Documents/AsitEmpire/ARCH/SmartFooter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

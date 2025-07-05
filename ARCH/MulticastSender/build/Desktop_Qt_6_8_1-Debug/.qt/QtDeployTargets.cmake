@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MulticastSender_FILE /home/asit/Documents/AsitEmpire/ARCH/MulticastSender/build/Desktop_Qt_6_8_1-Debug/libMulticastSender.so)
+set(__QT_DEPLOY_TARGET_MulticastSender_TYPE SHARED_LIBRARY)

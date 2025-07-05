@@ -1,0 +1,11 @@
+<Layout>
+    <Zone Name="zone1" Component="header"/>
+    <Zone Name="zone2" Component="mainscreen"/>
+    <Zone Name="zone3" Component="footer"/>
+  <!--  <Zone Name="zone4" Component="popup"/>
+     <Zone Name="zone5" Component="popup2"/>
+    <Zone Name="zone6" Component="popup3"/>
+      <Zone Name="zone7" Component="popup4"/>
+      -->
+</Layout>
+

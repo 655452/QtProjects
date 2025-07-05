@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SmartMainLibrary_FILE /home/asit/Documents/AsitEmpire/DynamicLoading2jan2025/SmartMainLibrary/lib/libSmartMainLibrary.so)
+set(__QT_DEPLOY_TARGET_SmartMainLibrary_TYPE SHARED_LIBRARY)

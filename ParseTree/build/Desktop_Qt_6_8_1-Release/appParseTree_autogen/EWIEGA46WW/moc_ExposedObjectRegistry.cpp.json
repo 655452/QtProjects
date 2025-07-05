@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "ExposedObjectRegistry",
+            "lineNumber": 5,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "objectName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "methodName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "args",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "invoke",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "objectName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "methodName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "isCloned": true,
+                    "name": "invoke",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ExposedObjectRegistry",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ExposedObjectRegistry.h",
+    "outputRevision": 68
+}

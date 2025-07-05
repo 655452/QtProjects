@@ -1,0 +1,14 @@
+-rootPath
+/home/asit/ParseTree
+-cmake-output
+-output-file
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/.qt/qml_imports/appParseTree_build.cmake
+-importPath
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/ParseTree
+-importPath
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release
+-importPath
+/home/asit/Qt/6.8.1/gcc_64/qml
+-qrcFiles
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/.qt/rcc/qmake_ParseTree.qrc
+/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/.qt/rcc/appParseTree_raw_qml_0.qrc

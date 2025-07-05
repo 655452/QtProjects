@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartMainLibrary",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainLibrary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainLibrary-Release-de9012dbcf2075b17db0.json",
+					"name" : "SmartMainLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainLibrary_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainLibrary_autogen-Release-00ccc85728722d3576b7.json",
+					"name" : "SmartMainLibrary_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartMainLibrary_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartMainLibrary_autogen_timestamp_deps-Release-33eb44d70ab44a61423c.json",
+					"name" : "SmartMainLibrary_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asit/Documents/AsitEmpire/ARCH/SmartMainLibrary/build/Desktop_Qt_6_8_1-Release",
+		"source" : "/home/asit/Documents/AsitEmpire/ARCH/SmartMainLibrary"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

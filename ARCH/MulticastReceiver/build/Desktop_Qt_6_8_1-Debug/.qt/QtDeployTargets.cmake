@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MulticastReceiver_FILE /home/asit/Documents/AsitEmpire/ARCH/MulticastReceiver/build/Desktop_Qt_6_8_1-Debug/libMulticastReceiver.so)
+set(__QT_DEPLOY_TARGET_MulticastReceiver_TYPE SHARED_LIBRARY)

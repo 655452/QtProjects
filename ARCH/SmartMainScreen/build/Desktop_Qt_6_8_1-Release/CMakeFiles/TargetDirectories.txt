@@ -1,0 +1,5 @@
+/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartMainScreen.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Release/CMakeFiles/edit_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Release/CMakeFiles/rebuild_cache.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartMainScreen_autogen_timestamp_deps.dir
+/home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/build/Desktop_Qt_6_8_1-Release/CMakeFiles/SmartMainScreen_autogen.dir

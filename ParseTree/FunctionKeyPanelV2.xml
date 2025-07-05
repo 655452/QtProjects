@@ -1,0 +1,96 @@
+<FunctionKeyMap>
+    <Component  name="DASHBOARD" action="cvalue">
+        <Key key="F1" action="actionEventManager.activeFunct1()">
+                <Key key="F1" action="F1 Depth 1"></Key>
+                <Key key="F2" action="F2 Depth 1"></Key>
+                <Key key="F3" action="Activity">
+                        <Key key="F1" action="F1 Depth 2"></Key>
+                        <Key key="F2" action="F2 Depth 2">
+                                <Key key="F1" action="F1 Depth 3"></Key>
+                                <Key key="F2" action="F2 Depth 3"></Key>
+                                <Key key="F3" action="F3 Depth 3"></Key>
+                                <Key key="F4" action="F4 Depth 3"></Key>
+                                <Key key="F5" action="F5 Depth 3"></Key>
+                                <Key key="F6" action="F6 Depth 3"></Key>
+                                <Key key="F7" action="F7 Depth 3"></Key>
+                                <Key key="F8" action="F8 Depth 3"></Key>
+                                <Key key="F9" action="F9 Depth 3"></Key>
+                        </Key>
+                        <Key key="F3" action="F3 Depth 2"></Key>
+                        <Key key="F4" action="F4 Depth 2"></Key>
+                        <Key key="F5" action="F5 Depth 2"></Key>
+                        <Key key="F6" action="F6 Depth 2"></Key>
+                        <Key key="F7" action="F7 Depth 2"></Key>
+                        <Key key="F8" action="F8 Depth 2"></Key>
+                        <Key key="F9" action="F9 Depth 2"></Key>
+                </Key>
+                <Key key="F4" action="triggerAction"></Key>
+                <Key key="F5" action="ShowDialog"></Key>
+                <Key key="F6" action="PrintReport"></Key>
+                <Key key="F7" action="F7 Depth 1"></Key>
+                <Key key="F8" action="F8 Depth 1"></Key>
+                <Key key="F9" action="F9 Depth 1"></Key>
+        </Key>
+        <Key key="F2" action="OpenDashboard">
+                <Key key="F1" action="F1 Depth 1"></Key>
+                <Key key="F2" action="F2 Depth 1"></Key>
+                <Key key="F3" action="F3 Depth 1"></Key>
+                <Key key="F4" action="F4 Depth 1"></Key>
+                <Key key="F5" action="F5 Depth 1"></Key>
+                <Key key="F6" action="F6 Depth 1"></Key>
+                <Key key="F7" action="F7 Depth 1"></Key>
+                <Key key="F8" action="F8 Depth 1"></Key>
+                <Key key="F9" action="F9 Depth 1"></Key>
+        </Key>
+        <Key key="F3" action="ShowDialog">
+                <Key key="F1" action="F1 Depth 1"></Key>
+                <Key key="F2" action="F2 Depth 1"></Key>
+                <Key key="F3" action="F3 Depth 1"></Key>
+                <Key key="F4" action="F4 Depth 1"></Key>
+                <Key key="F5" action="F5 Depth 1"></Key>
+                <Key key="F6" action="F6 Depth 1"></Key>
+                <Key key="F7" action="F7 Depth 1"></Key>
+                <Key key="F8" action="F8 Depth 1"></Key>
+                <Key key="F9" action="F9 Depth 1"></Key>
+        </Key>
+        <Key key="F4" action="F4 Depth 0"></Key>
+        <Key key="F5" action="F5 Depth 0"></Key>
+        <Key key="F6" action="F6 Depth 0"></Key>
+        <Key key="F7" action="F7 Depth 0"></Key>
+        <Key key="F8" action="F8 Depth 0"></Key>
+        <Key key="F9" action="F9 Depth 0"></Key>
+    </Component>
+    <Component name="TMA" >
+        <Key key="F1" action="F1 Depth 0">
+                <Key key="F1" action="F1 Depth 1"></Key>
+                <Key key="F2" action="F2 Depth 1"></Key>
+                <Key key="F3" action="F3 Depth 1"></Key>
+                <Key key="F4" action="F4 Depth 1"></Key>
+                <Key key="F5" action="F5 Depth 1"></Key>
+                <Key key="F6" action="F6 Depth 1"></Key>
+                <Key key="F7" action="F7 Depth 1"></Key>
+                <Key key="F8" action="F8 Depth 1"></Key>
+                <Key key="F9" action="F9 Depth 1"></Key>
+        </Key>
+        <Key key="F2" action="F2 Depth 0">
+                <Key key="F1" action="F1 Depth 1"></Key>
+                <Key key="F2" action="F2 Depth 1"></Key>
+                <Key key="F3" action="F3 Depth 1"></Key>
+                <Key key="F4" action="F4 Depth 1"></Key>
+                <Key key="F5" action="F5 Depth 1"></Key>
+                <Key key="F6" action="F6 Depth 1"></Key>
+                <Key key="F7" action="F7 Depth 1"></Key>
+                <Key key="F8" action="F8 Depth 1"></Key>
+                <Key key="F9" action="F9 Depth 1"></Key>
+        </Key>
+        <Key key="F3" action="F3 Depth 0"></Key>
+        <Key key="F4" action="F4 Depth 0"></Key>
+        <Key key="F5" action="F5 Depth 0"></Key>
+        <Key key="F6" action="F6 Depth 0"></Key>
+        <Key key="F7" action="F7 Depth 0"></Key>
+        <Key key="F8" action="F8 Depth 0"></Key>
+        <Key key="F9" action="F9 Depth 0"></Key>
+    </Component>
+</FunctionKeyMap>
+
+

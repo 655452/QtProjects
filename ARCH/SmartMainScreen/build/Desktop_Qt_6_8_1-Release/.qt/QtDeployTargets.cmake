@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SmartMainScreen_FILE /home/asit/Documents/AsitEmpire/ARCH/SmartMainScreen/lib/libSmartMainScreen.so)
+set(__QT_DEPLOY_TARGET_SmartMainScreen_TYPE SHARED_LIBRARY)

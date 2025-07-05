@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ParseTree">
+    <file alias="qmldir">/home/asit/ParseTree/build/Desktop_Qt_6_8_1-Release/ParseTree/qmldir</file>
+  </qresource>
+</RCC>
+

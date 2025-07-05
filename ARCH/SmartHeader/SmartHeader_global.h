@@ -1,0 +1,12 @@
+#ifndef SMARTHEADER_GLOBAL_H
+#define SMARTHEADER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SMARTHEADER_LIBRARY)
+#define SMARTHEADER_EXPORT Q_DECL_EXPORT
+#else
+#define SMARTHEADER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SMARTHEADER_GLOBAL_H
