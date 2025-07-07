@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_SharedDataModel_FILE /home/asit/Documents/AsitEmpire/DynamicLoading2jan2025/SharedDataModel/lib/libSharedDataModel.so)
-set(__QT_DEPLOY_TARGET_SharedDataModel_TYPE SHARED_LIBRARY)

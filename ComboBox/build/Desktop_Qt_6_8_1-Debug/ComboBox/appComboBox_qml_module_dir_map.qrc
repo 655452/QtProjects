@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/ComboBox">/home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/ComboBox</file>
-
-  </qresource>
-</RCC>

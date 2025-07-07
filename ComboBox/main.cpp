@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include "treemodel.h"
 #include <QQmlContext>
+#include "CentralDataProvider.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,6 +10,14 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/ComboBox/main.qml"));
+
+
+    CentralDataProvider centralProvider;
+    TreeModel model;
+    model.setAllItems(centralProvider.centralData().value("Items").toList());
+
+    engine.rootContext()->setContextProperty("centralData", centralProvider.centralData());
+
 
     TreeModel treeModel;
     // engine.rootContext()->setContextProperty("TreeModel", &treeModel);

@@ -22,6 +22,7 @@ qt_add_qml_module(appComboBox
     QML_FILES ExpandableSection.qml
     QML_FILES PieMenu.qml
     RESOURCES res.qrc
+    SOURCES CentralDataProvider.h CentralDataProvider.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

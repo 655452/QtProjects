@@ -129,7 +129,7 @@ ApplicationWindow {
     visible: true
     property bool nominatedItemVisible:false
 
-
+/*
     property var centralData: (
                                   {
                                       "classification":["Air","Land","Unknown"],
@@ -307,6 +307,8 @@ ApplicationWindow {
                                       ]
                                   }
                                   )
+
+    */
     function updateTreeModelForClassification(classification) {
         TreeModel.clearAll()  // You must implement this in your TreeModel C++ class
 

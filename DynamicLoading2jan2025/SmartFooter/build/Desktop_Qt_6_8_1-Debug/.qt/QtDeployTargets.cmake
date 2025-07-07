@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_SmartFooter_FILE /home/asit/Documents/AsitEmpire/DynamicLoading2jan2025/SmartFooter/lib/libSmartFooter.so)
-set(__QT_DEPLOY_TARGET_SmartFooter_TYPE SHARED_LIBRARY)

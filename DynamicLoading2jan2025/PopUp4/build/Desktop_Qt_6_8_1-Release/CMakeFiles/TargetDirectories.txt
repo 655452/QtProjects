@@ -1,5 +1,0 @@
-/home/asit/PopUp4/build/Desktop_Qt_6_8_1-Release/CMakeFiles/PopUp4.dir
-/home/asit/PopUp4/build/Desktop_Qt_6_8_1-Release/CMakeFiles/edit_cache.dir
-/home/asit/PopUp4/build/Desktop_Qt_6_8_1-Release/CMakeFiles/rebuild_cache.dir
-/home/asit/PopUp4/build/Desktop_Qt_6_8_1-Release/CMakeFiles/PopUp4_autogen_timestamp_deps.dir
-/home/asit/PopUp4/build/Desktop_Qt_6_8_1-Release/CMakeFiles/PopUp4_autogen.dir

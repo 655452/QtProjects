@@ -1,0 +1,2 @@
+1 Server less backend 
+offers backend infrastructure  for applications on a pay -as you -go  without  requiring  developers to manage  servers directly 

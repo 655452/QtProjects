@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appComboBox_FILE /home/asit/ComboBox/build/Desktop_Qt_6_8_1-Debug/appComboBox)
-set(__QT_DEPLOY_TARGET_appComboBox_TYPE EXECUTABLE)

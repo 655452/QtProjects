@@ -4,6 +4,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import QtQuick.Shapes
 
 Item {
     id: root
@@ -120,6 +121,29 @@ Item {
                         }
                     }
 */
+                    Shape {
+                        id: treeLines
+                        width: boxOffsetX + 20
+                        height: parent.height
+                        anchors.left: parent.left
+                        anchors.top: parent.top
+
+                        ShapePath {
+                            strokeWidth: 1
+                            strokeColor: "#ffffff"
+                            fillColor: "transparent"
+
+                            startX: boxOffsetX + 8
+                            startY: 0
+
+                            // Vertical line
+                            PathLine { x: boxOffsetX + 8; y: parent.height / 2 }
+
+                            // Horizontal line
+                            PathLine { x: boxOffsetX + 16; y: parent.height / 2 }
+                        }
+                    }
+
                     // Expand/collapse button
                     Rectangle {
                         id: indicatorBox

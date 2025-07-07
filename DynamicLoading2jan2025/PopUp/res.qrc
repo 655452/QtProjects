@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>PopUp.qml</file>
-    </qresource>
-</RCC>
