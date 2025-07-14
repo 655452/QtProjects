@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img.png</file>
+        <file>writing.jpg</file>
+        <file>AllNotification.qml</file>
+    </qresource>
+</RCC>
