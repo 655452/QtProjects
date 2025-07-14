@@ -402,10 +402,15 @@
 // }
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Layouts
+import MyApp 1.0
+import "AnchorUtil.js" as Utils
+
 
 ApplicationWindow {
     width: 800; height: 600; visible: true
-
+/*
+    // Draggable Box
     Rectangle {
         id: box
         width: 400; height: 300; x: 200; y: 150
@@ -455,4 +460,352 @@ ApplicationWindow {
             font.pixelSize: box.fontScale
         }
     }
+
+        // popup proper Layout
+    Rectangle{
+        width:400
+        height:600
+        color:"black"
+        border.width:1
+        border.color:"white"
+
+
+        // GIve the proper card through which i should take the input  for  our  website in details explain How these
+        // can be made with proper qml  best practices and how to use the columnLayout effectively and properly explain
+        // the card should be scallable and dragable also please keep these in consideration
+        ColumnLayout{
+            anchors.margins:10
+            MouseArea{
+                anchors.fill:parent
+                drag.target:parent
+            }
+            spacing:10
+            Rectangle{
+                anchors.fill:parent
+                color:"gray"
+                opacity:0.7
+            }
+            RowLayout {
+                // anchors.fill: parent
+                // Layout.fillWidth:true
+                Layout.alignment:Qt.AlignHCenter
+                spacing: 10
+
+                Rectangle {
+                    // Layout.columnSpan:2
+                    color: "lightblue"
+                    Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    Layout.horizontalStretchFactor: 1
+                    Text { anchors.centerIn: parent; text: "1" }
+                }
+
+                Rectangle {
+                    // Layout.columnSpan:2
+                    color: "lightgreen"
+                    Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    Layout.horizontalStretchFactor: 2
+                    Text { anchors.centerIn: parent; text: "2" }
+                }
+
+                Rectangle {
+                    // Layout.columnSpan:2
+                    color: "lightcoral"
+                    Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    Layout.horizontalStretchFactor: 1
+                    Text { anchors.centerIn: parent; text: "1" }
+                }
+            }
+
+            RowLayout{
+                Layout.fillWidth:true
+                // width:parent.implicitWidth
+                // uniformCellSizes:true
+
+
+                Label{
+                    text:"Item"
+                    Layout.fillWidth:true
+                    color:"white"
+                    background:Rectangle{
+                        color:"gray"
+                    }
+                }
+
+                Rectangle{
+                    width:20
+                    height:20
+                    color:"transparent"
+                    radius:width/2
+                    border.width:1
+                    border.color:"white"
+                }
+            }
+
+            GridLayout{
+                columns:6
+                columnSpacing:20
+
+                Label{
+                    color:"white"
+                    text:"Category"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"Fruits"
+                }
+
+                // ---------------------------------
+                Label{
+                    color:"white"
+                    text:"vegetables"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"spinach"
+                }
+
+                Label{
+                    color:"white"
+                    text:"Snacks"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"Kurkurey"
+                }
+
+                // ---------------------------------
+                Label{
+                    color:"white"
+                    text:"vegetables"
+
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"spinach"
+                }
+
+            }
+            
+            
+            GridLayout{
+                columns:4
+                columnSpacing:20
+                uniformCellWidths:true
+
+                Rectangle {
+                    Layout.columnSpan:2
+                    color: "lightblue"
+                    // Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    // Layout.horizontalStretchFactor: 1
+                    Text { anchors.centerIn: parent; text: "1" }
+                }
+
+                Rectangle {
+                    Layout.columnSpan:2
+                    color: "lightgreen"
+                    // Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    // Layout.horizontalStretchFactor: 2
+                    Text { anchors.centerIn: parent; text: "2" }
+                }
+
+                Rectangle {
+                    Layout.columnSpan:2
+                    color: "lightcoral"
+                    // Layout.preferredWidth: 50
+                    Layout.preferredHeight:50
+                    Layout.fillHeight: true
+                    Layout.fillWidth:true
+                    // Layout.horizontalStretchFactor: 1
+                    Text { anchors.centerIn: parent; text: "1" }
+                }
+
+                Label{
+                    color:"white"
+                    text:"animals"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"Cat"
+                }
+
+                // ---------------------------------
+                Label{
+                    color:"white"
+                    text:"vegei"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"carrot"
+                }
+
+                Label{
+                    color:"white"
+                    text:"CHip"
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"mita"
+                }
+
+                // ---------------------------------
+                Label{
+                    color:"white"
+                    text:"vegetables"
+
+                }
+                Label{
+                    color:"white"
+                    text:":"
+                }
+                Label{
+                    color:"white"
+                    text:"spinach"
+                }
+
+            }
+            
+        }
+    }
+
+    */
+    // LAyout for xml to qml file generation
+
+        ZoneLoader {
+            id: loader
+            onZonesChanged: repeater.model = loader.zones
+        }
+
+        Component.onCompleted: {
+            loader.loadZonesFromXml("/home/asit/WORKSPACE/Layout/Zones.xml")
+        }
+
+        Rectangle{
+            id:taskBar
+            width:20
+            height:60
+            color:"red"
+            radius:50
+            anchors.right:parent.right
+            anchors.verticalCenter:parent.verticalCenter
+        }
+
+        // ColumnLayout {
+        //     id: layoutColumn
+        //     anchors.fill: parent
+        //     spacing: 10
+
+        //     Repeater {
+        //         id: repeater
+        //         delegate: Rectangle {
+        //             width: modelData.width
+        //             height: modelData.height
+        //             color: modelData.color
+        //         }
+        //     }
+        // }
+
+        Rectangle{
+            id:shapePath
+            Rectangle{
+
+            }
+        }
+
+        Item {
+            id: layoutContainer
+            anchors.fill: parent
+
+            Repeater {
+                id: repeater
+                delegate: Rectangle {
+                    width: parseInt(modelData.width)
+                    height: parseInt(modelData.height)
+                    color: modelData.color || "gray"
+
+                    // Dynamic ID assignment (optional)
+                    objectName: modelData.id
+
+                    // Absolute Positioning
+                    x: modelData.x !== undefined ? parseInt(modelData.x) : 0
+                    y: modelData.y !== undefined ? parseInt(modelData.y) : 0
+
+                    // Anchor support
+                    Component.onCompleted: {
+                            Utils.applyAnchors(this, modelData, layoutContainer)
+                        Utils.applyProperties(this, modelData)
+                        }
+
+                }
+            }
+        }
+
+
+    /*
+    ColumnLayout{
+        id:layout
+        Rectangle{
+          id:zone1
+          width:100
+          height:150
+          color:"red"
+        }
+
+        Rectangle{
+          id:zone2
+          width:100
+          height:150
+          color:"green"
+        }
+
+        Rectangle{
+          id:zone3
+          width:100
+          height:150
+          color:"pink"
+        }
+    }
+    */
 }

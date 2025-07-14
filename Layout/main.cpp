@@ -1,11 +1,13 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-
+#include "ZoneLoader.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+    qmlRegisterType<ZoneLoader>("MyApp", 1, 0, "ZoneLoader");
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
