@@ -1,273 +1,273 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
-// ------------------------------ Progress step indicator Linear ----------------------------------------------
-ApplicationWindow {
-    visible: true
-    width: 400
-    height: 300
-    title: "Stepper Menu"
+// import QtQuick 2.15
+// import QtQuick.Controls 2.15
+// // ------------------------------ Progress step indicator Linear ----------------------------------------------
+// ApplicationWindow {
+//     visible: true
+//     width: 400
+//     height: 300
+//     title: "Stepper Menu"
 
-    Item {
-        width:parent.width
-        height:parent.height
-        Rectangle {
-            id: stepperMenu
-            width: parent.width
-            height: parent.height
-            color:"transparent"
-            property int currentStep: 1
+//     Item {
+//         width:parent.width
+//         height:parent.height
+//         Rectangle {
+//             id: stepperMenu
+//             width: parent.width
+//             height: parent.height
+//             color:"transparent"
+//             property int currentStep: 1
 
-            function updateGraphics(){
-                innerCircle.requestPaint()
-            }
+//             function updateGraphics(){
+//                 innerCircle.requestPaint()
+//             }
 
-            function goToNextStep() {
-                if (currentStep < 5) {
-                    currentStep++
-                    updateGraphics()
-                }
-            }
+//             function goToNextStep() {
+//                 if (currentStep < 5) {
+//                     currentStep++
+//                     updateGraphics()
+//                 }
+//             }
 
-            function goToPreviousStep() {
-                if (currentStep > 1) {
-                    currentStep--
-                    updateGraphics()
-                }
-            }
+//             function goToPreviousStep() {
+//                 if (currentStep > 1) {
+//                     currentStep--
+//                     updateGraphics()
+//                 }
+//             }
 
-            Row {
-                anchors.centerIn: parent
-                spacing: 5
-                Rectangle {
-                    id: item
-                    radius: 50
-                    width: 50
-                    height: 50
-                    color: stepperMenu.currentStep >= 2 ? "lightgreen" : "transparent"
+//             Row {
+//                 anchors.centerIn: parent
+//                 spacing: 5
+//                 Rectangle {
+//                     id: item
+//                     radius: 50
+//                     width: 50
+//                     height: 50
+//                     color: stepperMenu.currentStep >= 2 ? "lightgreen" : "transparent"
 
-                    Canvas {
-                        id: innerCircle
-                        anchors.centerIn: parent
-                        width: item.width / 2
-                        height: item.height / 2
+//                     Canvas {
+//                         id: innerCircle
+//                         anchors.centerIn: parent
+//                         width: item.width / 2
+//                         height: item.height / 2
 
-                        onPaint: {
-                            var ctx = getContext("2d");
-                            ctx.clearRect(0, 0, width, height);
-                            if (stepperMenu.currentStep < 2) {
-                                ctx.fillStyle = "#3b90f3";
-                                ctx.beginPath();
-                                ctx.arc(width / 2, height / 2, width / 2, 0, Math.PI * 2, true);
-                                ctx.fill();
-                            } else {
-                                ctx.strokeStyle = "#3b90f3";
-                                ctx.lineWidth = 4;
-                                ctx.beginPath();
-                                ctx.moveTo(width * 0.2, height * 0.5);
-                                ctx.lineTo(width * 0.4, height * 0.7);
-                                ctx.lineTo(width * 0.8, height * 0.3);
-                                ctx.stroke();
-                            }
-                        }
-                    }
+//                         onPaint: {
+//                             var ctx = getContext("2d");
+//                             ctx.clearRect(0, 0, width, height);
+//                             if (stepperMenu.currentStep < 2) {
+//                                 ctx.fillStyle = "#3b90f3";
+//                                 ctx.beginPath();
+//                                 ctx.arc(width / 2, height / 2, width / 2, 0, Math.PI * 2, true);
+//                                 ctx.fill();
+//                             } else {
+//                                 ctx.strokeStyle = "#3b90f3";
+//                                 ctx.lineWidth = 4;
+//                                 ctx.beginPath();
+//                                 ctx.moveTo(width * 0.2, height * 0.5);
+//                                 ctx.lineTo(width * 0.4, height * 0.7);
+//                                 ctx.lineTo(width * 0.8, height * 0.3);
+//                                 ctx.stroke();
+//                             }
+//                         }
+//                     }
 
-                    Rectangle {
-                        radius: 50
-                        anchors.fill: parent
-                        color: "transparent"
-                        border.width: 2
-                        border.color: "grey"
+//                     Rectangle {
+//                         radius: 50
+//                         anchors.fill: parent
+//                         color: "transparent"
+//                         border.width: 2
+//                         border.color: "grey"
 
-                        Rectangle {
-                            id: borderAnim
-                            radius: 50
-                            anchors.fill: parent
-                            anchors.margins: -2
-                            color: "transparent"
-                            border.width: 2
-                            border.color: stepperMenu.currentStep >= 1 ? "#3b90f3" : "transparent"
-                            Behavior on border.color {
-                                ColorAnimation { duration: 500 }
-                            }
-                        }
-                    }
-                }
-                Rectangle {
-                    id: spacer
-                    radius: 5
-                    width: 35
-                    height: 5
-                    color: "grey"
-                    anchors.verticalCenter: parent.verticalCenter
+//                         Rectangle {
+//                             id: borderAnim
+//                             radius: 50
+//                             anchors.fill: parent
+//                             anchors.margins: -2
+//                             color: "transparent"
+//                             border.width: 2
+//                             border.color: stepperMenu.currentStep >= 1 ? "#3b90f3" : "transparent"
+//                             Behavior on border.color {
+//                                 ColorAnimation { duration: 500 }
+//                             }
+//                         }
+//                     }
+//                 }
+//                 Rectangle {
+//                     id: spacer
+//                     radius: 5
+//                     width: 35
+//                     height: 5
+//                     color: "grey"
+//                     anchors.verticalCenter: parent.verticalCenter
 
-                    Rectangle {
-                        id: fillRect
-                        width: stepperMenu.currentStep >= 2 ? spacer.width : 0
-                        height: 5
-                        color: "#3b90f3"
-                        radius: 5
-                        Behavior on width {
-                            NumberAnimation { duration: 500 }
-                        }
-                    }
-                }
+//                     Rectangle {
+//                         id: fillRect
+//                         width: stepperMenu.currentStep >= 2 ? spacer.width : 0
+//                         height: 5
+//                         color: "#3b90f3"
+//                         radius: 5
+//                         Behavior on width {
+//                             NumberAnimation { duration: 500 }
+//                         }
+//                     }
+//                 }
 
-                Rectangle {
-                    id: item1
-                    radius: 50
-                    width: 50
-                    height: 50
-                    color: stepperMenu.currentStep >= 3 ? "lightgreen" : "transparent"
-                    Text {
-                        anchors.centerIn: parent
-                        text: "Hello"
-                    }
+//                 Rectangle {
+//                     id: item1
+//                     radius: 50
+//                     width: 50
+//                     height: 50
+//                     color: stepperMenu.currentStep >= 3 ? "lightgreen" : "transparent"
+//                     Text {
+//                         anchors.centerIn: parent
+//                         text: "Hello"
+//                     }
 
-                    Rectangle {
-                        radius: 50
-                        anchors.fill: parent
-                        color: "transparent"
-                        border.width: 2
-                        border.color: "grey"
+//                     Rectangle {
+//                         radius: 50
+//                         anchors.fill: parent
+//                         color: "transparent"
+//                         border.width: 2
+//                         border.color: "grey"
 
-                        Rectangle {
-                            id: borderAnim1
-                            radius: 50
-                            anchors.fill: parent
-                            anchors.margins: -2
-                            color: "transparent"
-                            border.width: 2
-                            border.color: stepperMenu.currentStep >= 2 ? "#3b90f3" : "transparent"
-                            Behavior on border.color {
-                                ColorAnimation { duration: 500 }
-                            }
-                        }
-                    }
-                }
+//                         Rectangle {
+//                             id: borderAnim1
+//                             radius: 50
+//                             anchors.fill: parent
+//                             anchors.margins: -2
+//                             color: "transparent"
+//                             border.width: 2
+//                             border.color: stepperMenu.currentStep >= 2 ? "#3b90f3" : "transparent"
+//                             Behavior on border.color {
+//                                 ColorAnimation { duration: 500 }
+//                             }
+//                         }
+//                     }
+//                 }
 
-                Rectangle {
-                    id: spacer2
-                    radius: 5
-                    width: 35
-                    height: 5
-                    color: "grey"
-                    anchors.verticalCenter: parent.verticalCenter
+//                 Rectangle {
+//                     id: spacer2
+//                     radius: 5
+//                     width: 35
+//                     height: 5
+//                     color: "grey"
+//                     anchors.verticalCenter: parent.verticalCenter
 
-                    Rectangle {
-                        id: fillRect2
-                        width: stepperMenu.currentStep >= 3 ? spacer2.width : 0
-                        height: 5
-                        color: "#3b90f3"
-                        radius: 5
-                        Behavior on width {
-                            NumberAnimation { duration: 500 }
-                        }
-                    }
-                }
+//                     Rectangle {
+//                         id: fillRect2
+//                         width: stepperMenu.currentStep >= 3 ? spacer2.width : 0
+//                         height: 5
+//                         color: "#3b90f3"
+//                         radius: 5
+//                         Behavior on width {
+//                             NumberAnimation { duration: 500 }
+//                         }
+//                     }
+//                 }
 
-                Rectangle {
-                    id: item2
-                    radius: 50
-                    width: 50
-                    height: 50
-                    color: stepperMenu.currentStep >= 4 ? "lightgreen" : "transparent"
-                    Text {
-                        anchors.centerIn: parent
-                        text: "!!!!"
-                    }
+//                 Rectangle {
+//                     id: item2
+//                     radius: 50
+//                     width: 50
+//                     height: 50
+//                     color: stepperMenu.currentStep >= 4 ? "lightgreen" : "transparent"
+//                     Text {
+//                         anchors.centerIn: parent
+//                         text: "!!!!"
+//                     }
 
-                    Rectangle {
-                        radius: 50
-                        anchors.fill: parent
-                        color: "transparent"
-                        border.width: 2
-                        border.color: "grey"
+//                     Rectangle {
+//                         radius: 50
+//                         anchors.fill: parent
+//                         color: "transparent"
+//                         border.width: 2
+//                         border.color: "grey"
 
-                        Rectangle {
-                            id: borderAnim2
-                            radius: 50
-                            anchors.fill: parent
-                            anchors.margins: -2
-                            color: "transparent"
-                            border.width: 2
-                            border.color: stepperMenu.currentStep >= 3 ? "#3b90f3" : "transparent"
-                            Behavior on border.color {
-                                ColorAnimation { duration: 500 }
-                            }
-                        }
-                    }
-                }
-                Rectangle {
-                    id: spacer3
-                    radius: 5
-                    width: 35
-                    height: 5
-                    color: "grey"
-                    anchors.verticalCenter: parent.verticalCenter
+//                         Rectangle {
+//                             id: borderAnim2
+//                             radius: 50
+//                             anchors.fill: parent
+//                             anchors.margins: -2
+//                             color: "transparent"
+//                             border.width: 2
+//                             border.color: stepperMenu.currentStep >= 3 ? "#3b90f3" : "transparent"
+//                             Behavior on border.color {
+//                                 ColorAnimation { duration: 500 }
+//                             }
+//                         }
+//                     }
+//                 }
+//                 Rectangle {
+//                     id: spacer3
+//                     radius: 5
+//                     width: 35
+//                     height: 5
+//                     color: "grey"
+//                     anchors.verticalCenter: parent.verticalCenter
 
-                    Rectangle {
-                        id: fillRect3
-                        radius: 5
-                        width: stepperMenu.currentStep >= 4 ? spacer3.width : 0
-                        height: 5
-                        color: "#3b90f3"
-                        Behavior on width {
-                            NumberAnimation { duration: 500 }
-                        }
-                    }
-                }
-                Rectangle {
-                    id: item3
-                    radius: 50
-                    width: 50
-                    height: 50
-                    color: stepperMenu.currentStep >= 5 ? "lightgreen" : "transparent"
-                    Text {
-                        anchors.centerIn: parent
-                        text: "Hello"
-                    }
+//                     Rectangle {
+//                         id: fillRect3
+//                         radius: 5
+//                         width: stepperMenu.currentStep >= 4 ? spacer3.width : 0
+//                         height: 5
+//                         color: "#3b90f3"
+//                         Behavior on width {
+//                             NumberAnimation { duration: 500 }
+//                         }
+//                     }
+//                 }
+//                 Rectangle {
+//                     id: item3
+//                     radius: 50
+//                     width: 50
+//                     height: 50
+//                     color: stepperMenu.currentStep >= 5 ? "lightgreen" : "transparent"
+//                     Text {
+//                         anchors.centerIn: parent
+//                         text: "Hello"
+//                     }
 
-                    Rectangle {
-                        radius: 50
-                        anchors.fill: parent
-                        color: "transparent"
-                        border.width: 2
-                        border.color: "grey"
+//                     Rectangle {
+//                         radius: 50
+//                         anchors.fill: parent
+//                         color: "transparent"
+//                         border.width: 2
+//                         border.color: "grey"
 
-                        Rectangle {
-                            id: borderAnim3
-                            radius: 50
-                            anchors.fill: parent
-                            anchors.margins: -2
-                            color: "transparent"
-                            border.width: 2
-                            border.color: stepperMenu.currentStep >= 4 ? "#3b90f3" : "transparent"
-                            Behavior on border.color {
-                                ColorAnimation { duration: 500 }
-                            }
-                        }
-                    }
-                }
-            }
-            Row {
-                anchors.top: parent.top
-                anchors.horizontalCenter: parent.horizontalCenter
+//                         Rectangle {
+//                             id: borderAnim3
+//                             radius: 50
+//                             anchors.fill: parent
+//                             anchors.margins: -2
+//                             color: "transparent"
+//                             border.width: 2
+//                             border.color: stepperMenu.currentStep >= 4 ? "#3b90f3" : "transparent"
+//                             Behavior on border.color {
+//                                 ColorAnimation { duration: 500 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//             Row {
+//                 anchors.top: parent.top
+//                 anchors.horizontalCenter: parent.horizontalCenter
 
-                Button {
-                    text: "Previous"
-                    enabled: stepperMenu.currentStep > 1
-                    onClicked: stepperMenu.goToPreviousStep()
-                }
+//                 Button {
+//                     text: "Previous"
+//                     enabled: stepperMenu.currentStep > 1
+//                     onClicked: stepperMenu.goToPreviousStep()
+//                 }
 
-                Button {
-                    text: "Next"
-                    enabled: stepperMenu.currentStep < 4
-                    onClicked: stepperMenu.goToNextStep()
-                }
-            }
-        }
-    }
-}
+//                 Button {
+//                     text: "Next"
+//                     enabled: stepperMenu.currentStep < 4
+//                     onClicked: stepperMenu.goToNextStep()
+//                 }
+//             }
+//         }
+//     }
+// }
 
 // ------------------------------Circular Progress step indicator V1----------------------------------------------
 // import QtQuick 2.15
@@ -636,9 +636,9 @@ ApplicationWindow {
 // }
 
 // ------------------------------------------------progressBar--------------------------------------------------------------------------------------------------------------
-// import QtQuick 2.15
-// import QtQuick.Controls 2.15
-// import QtQuick.Layouts 1.15
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 1.15
 
 // ApplicationWindow {
 //     visible: true
@@ -669,6 +669,7 @@ ApplicationWindow {
 //                     antialiasing: true
 //                     radius: 2
 
+
 //                     gradient: Gradient {
 //                         GradientStop { position: 0.0; color: index < linearProgress.currentStep ? "transparent" : "#111" }
 //                         GradientStop { position: 1.0; color: index < linearProgress.currentStep ? "#003344" : "#000" }
@@ -693,3 +694,78 @@ ApplicationWindow {
 //         }
 //     }
 // }
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Shapes 1.15
+
+ApplicationWindow {
+    visible: true
+    width: 800
+    height: 300
+    title: "Neon Linear Progress Bar with Shape (60°)"
+
+    Rectangle {
+        id: linearProgress
+        width: parent.width - 40
+        height: 180
+        anchors.centerIn: parent
+        color: "black"
+
+        property int totalBars: 100
+        property int currentStep: 25
+
+        Row {
+            id: barRow
+            spacing: 2
+            anchors.centerIn: parent
+
+            Repeater {
+                model: linearProgress.totalBars
+                Column {
+                    spacing: 2
+
+                    // Draw 3 stacked _/ shapes per bar
+                    // Repeater {
+                    //     model: 3
+                        Shape {
+                            width: 10
+                            height: 15
+                            antialiasing: true
+
+                            ShapePath {
+                                strokeColor: index < linearProgress.currentStep ? "#00ffff" : "#003333"
+                                strokeWidth: 1
+                                fillGradient: LinearGradient {
+                                    x1: 0; y1: 0
+                                    x2: 1; y2: 1
+                                    GradientStop { position: 0.0; color: index < linearProgress.currentStep ? "transparent" : "#111" }
+                                    GradientStop { position: 1.0; color: index < linearProgress.currentStep ? "#00aaff" : "#000" }
+                                }
+                                fillColor: "transparent"
+
+                                startX: 0; startY: 0
+                                PathLine { x: 10; y: -2 }      // top edge
+                                PathLine { x: 2; y: 15 }    // slant down
+                                PathLine { x: 0; y: 15 }     // bottom edge
+                                // PathLine { x: 0; y: 0 }      // close path
+                            }
+                        // }
+                    }
+                }
+            }
+        }
+
+        Slider {
+            anchors.bottom: parent.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: parent.width * 0.9
+            from: 0
+            to: linearProgress.totalBars
+            value: linearProgress.currentStep
+            onValueChanged: {
+                linearProgress.currentStep = Math.round(value)
+            }
+        }
+    }
+}
