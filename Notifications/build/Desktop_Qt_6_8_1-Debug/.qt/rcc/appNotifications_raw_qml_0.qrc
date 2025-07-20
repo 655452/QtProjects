@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/Notifications/">
+    <file alias="main.qml">/home/asit/WORKSPACE/QtProjects/Notifications/main.qml</file>
+    <file alias="AllNotification.qml">/home/asit/WORKSPACE/QtProjects/Notifications/AllNotification.qml</file>
+    <file alias="MyStackArea.qml">/home/asit/WORKSPACE/QtProjects/Notifications/MyStackArea.qml</file>
+  </qresource>
+</RCC>
+

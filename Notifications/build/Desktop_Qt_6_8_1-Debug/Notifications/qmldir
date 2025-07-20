@@ -1,0 +1,6 @@
+module Notifications
+typeinfo appNotifications.qmltypes
+prefer :/Notifications/
+AllNotification 1.0 AllNotification.qml
+MyStackArea 1.0 MyStackArea.qml
+

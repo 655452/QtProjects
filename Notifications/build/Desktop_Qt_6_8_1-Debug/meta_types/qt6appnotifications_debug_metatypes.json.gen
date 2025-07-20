@@ -1,0 +1,292 @@
+[
+    {
+        "classes": [
+            {
+                "className": "NotificationManager",
+                "lineNumber": 9,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "notice",
+                        "read": "notice",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "NotificationModel*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "unseenNotice",
+                        "read": "unseenNotice",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "UnseenNotificationModel*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "warning",
+                        "read": "warning",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "NotificationModel*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "alert",
+                        "read": "alert",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "NotificationModel*",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "NotificationManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "NotificationManger.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "NotificationModel",
+                "lineNumber": 16,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "markAsSeen",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "time",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "addNotification",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "removeNotification",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "time",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "updateNotification",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "clear",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "type",
+                        "notify": "typeChanged",
+                        "read": "type",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setType"
+                    }
+                ],
+                "qualifiedClassName": "NotificationModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "typeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "notificationChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "NotificationModel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "UnseenNotificationModel",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "sourceModel",
+                        "returnType": "NotificationModel*"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sourceModel",
+                                "type": "NotificationModel*"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "setSource",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "unseenCount",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "proxyIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "markSourceAsSeen",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "sourceModel",
+                        "notify": "sourceChanged",
+                        "read": "sourceModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "NotificationModel*",
+                        "user": false,
+                        "write": "setSource"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "unseenCount",
+                        "notify": "unseenCountChanged",
+                        "read": "unseenCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "UnseenNotificationModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "sourceChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "unseenCountChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSortFilterProxyModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "UnseenNotificationModel.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,14 @@
+-rootPath
+/home/asit/WORKSPACE/QtProjects/Notifications
+-cmake-output
+-output-file
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/.qt/qml_imports/appNotifications_conf.cmake
+-importPath
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/Notifications
+-importPath
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug
+-importPath
+/home/asit/Qt/6.8.1/gcc_64/qml
+-qrcFiles
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/qmake_Notifications.qrc
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/.qt/rcc/appNotifications_raw_qml_0.qrc

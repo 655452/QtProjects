@@ -1,0 +1,3 @@
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/appNotifications_autogen/include/../EWIEGA46WW/moc_NotificationManger.cpp.json
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/appNotifications_autogen/include/../EWIEGA46WW/moc_NotificationModel.cpp.json
+/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/appNotifications_autogen/include/../EWIEGA46WW/moc_UnseenNotificationModel.cpp.json

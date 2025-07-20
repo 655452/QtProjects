@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appNotifications_FILE /home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/appNotifications)
+set(__QT_DEPLOY_TARGET_appNotifications_TYPE EXECUTABLE)

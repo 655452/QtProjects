@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/Notifications">/home/asit/WORKSPACE/QtProjects/Notifications/build/Desktop_Qt_6_8_1-Debug/Notifications</file>
+
+  </qresource>
+</RCC>
