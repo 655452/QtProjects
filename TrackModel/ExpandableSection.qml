@@ -17,6 +17,7 @@ Item {
     property int visibleTreeRows: 0
     property var treeModel:[]
     property int noOfItems:0
+
     // Component.onCompleted:{
     //     noOfItems=treeModel.getVisibleItemCount()
     // }
@@ -65,12 +66,23 @@ Item {
                 // anchors.margins: 10
                 clip: true
 
+                interactive:true
                 selectionModel: ItemSelectionModel {}
 
                 // The model needs to be a QAbstractItemModel
                 // model: yourTreeModel
                 // model:TreeModel
                 model:treeModel
+                // rowHeightProvider: function(row) {
+                //     const item = treeView.itemAtRow(row)
+                //     if (!item)
+                //         return 40; // default height
+
+                //     if (item.showDetails)
+                //         return 100; // manually return bigger height
+                //     return 40
+                // }
+                /*
                 delegate: Item {
                     implicitWidth: root.width
                     implicitHeight: label.implicitHeight+parameters.implicitHeight+20
@@ -89,7 +101,7 @@ Item {
 
                     readonly property real boxOffsetX: padding + depth * indentation
 
-                    /*
+
                     // L-shaped lines (outside the background)
                     Canvas {
                         id: treeLines
@@ -120,8 +132,8 @@ Item {
                             ctx.stroke();
                         }
                     }
-*/
-                    /*
+
+
                     Shape {
                         id: treeLines
                         width: boxOffsetX + 20
@@ -144,7 +156,6 @@ Item {
                             PathLine { x: boxOffsetX + 16; y: parent.height / 2 }
                         }
                     }
-*/
 
                     // Expand/collapse button
                     Rectangle {
@@ -247,6 +258,145 @@ Item {
 
                     }
 
+                }
+*/
+
+                delegate: Item {
+                    id: delegateItem
+                    required property TreeView treeView
+                    // required property bool isTreeNode
+
+                    property bool isTreeNode: treeView.model.hasChildren(treeView.index(row, 0))
+                    required property bool expanded
+                    required property bool hasChildren
+                    required property int depth
+                    required property int row
+                    required property int column
+                    required property bool current
+
+                    property bool showDetails: false
+
+                    readonly property real indentation: 20
+                    readonly property real padding: 5
+                    readonly property real boxOffsetX: padding + depth * indentation
+                    required property bool selected
+
+
+                    onImplicitHeightChanged:{
+
+                        console.log("height --- > ",implicitHeight)
+                    }
+                    onShowDetailsChanged: {
+                        console.log(" show details --- > ",showDetails)
+                        // let m = treeView.model
+                        // treeView.model = null
+                        // treeView.model = m
+                        // treeView.forceLayout()
+                    }
+
+                    // width: root.width
+                    implicitHeight: label.height + (selected ? detailsBlock.implicitHeight : 0) + 20
+
+                    implicitWidth: root.width
+                    // implicitHeight: label.implicitHeight+parameters.implicitHeight+20
+
+                    // Indicator Box: only for child expansion
+                    Rectangle {
+                        id: indicatorBox
+                        width: 16
+                        height: 16
+                        radius: 2
+                        border.color: "black"
+                        color: "green"
+                        visible: isTreeNode
+                        anchors.verticalCenter: parent.verticalCenter
+                        x: boxOffsetX + 8
+
+                        Text {
+                            anchors.centerIn: parent
+                            font.pixelSize: 12
+                            text: expanded ? "-" : "+"
+                        }
+
+                        MouseArea {
+                            anchors.fill: parent
+                            onClicked: {
+
+                                selected = !selected
+                                // treeView.expand(row)
+                                let index = treeView.index(row, column)
+                                treeView.selectionModel.setCurrentIndex(index, ItemSelectionModel.NoUpdate)
+                                treeView.toggleExpanded(row)
+
+                                treeView.forceLayout() // If available
+                            }
+                        }
+                    }
+
+                    Rectangle {
+                        id: background
+                        anchors {
+                            left: indicatorBox.right
+                            right: parent.right
+                            top: parent.top
+                            bottom: parent.bottom
+                            leftMargin: 6
+                        }
+                        border.color: current ? "white" : "green"
+                        border.width: 1
+                        radius: 2
+
+                        gradient: Gradient {
+                            orientation: Gradient.Horizontal
+                            GradientStop {
+                                position: 0.0
+                                color: model.color
+                            }
+                            GradientStop {
+                                position: 1.0
+                                color: "pink"
+                            }
+                        }
+
+                        Column {
+                            id: contentBlock
+                            anchors.fill: parent
+                            anchors.margins: 5
+
+                            Label {
+                                id: label
+                                text: model.name
+                                color: "white"
+                                elide: Text.ElideRight
+                                horizontalAlignment: Text.AlignHCenter
+                                anchors.horizontalCenter: parent.horizontalCenter
+                            }
+
+                            // Parameters section (hidden/shown)
+                            Row {
+                                id: detailsBlock
+                                visible: selected
+                                spacing: 5
+                                anchors.horizontalCenter: parent.horizontalCenter
+
+                                Repeater {
+                                    model: parameters
+                                    delegate: Column {
+                                        Label { text: modelData.name }
+                                        Label { text: modelData.value }
+                                    }
+                                }
+                            }
+                        }
+
+                        // Toggle parameters visibility on background click
+                        MouseArea {
+                            anchors.fill: parent
+                            onClicked: {
+                                selected = !selected
+                            }
+                        }
+                    }
                 }
 
             }
