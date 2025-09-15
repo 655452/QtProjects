@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resize.png</file>
+        <file>reset.png</file>
+        <file>zoom.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>qml/TrackLabel.qml</file>
+        <file>qml/MouseTrackerTooltip.qml</file>
+        <file>qml/RangeSliderWaterFall.qml</file>
+        <file>qml/RangeSliderVersions.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/WaterFall">
+    <file alias="qmldir">/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/WaterFall/qmldir</file>
+  </qresource>
+</RCC>
+

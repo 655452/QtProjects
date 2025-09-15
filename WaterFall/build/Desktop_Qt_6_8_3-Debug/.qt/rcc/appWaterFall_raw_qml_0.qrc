@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/WaterFall/">
+    <file alias="qml/Main.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/Main.qml</file>
+    <file alias="qml/WaterFallDisplay.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/WaterFallDisplay.qml</file>
+    <file alias="qml/MouseTrackerTooltip.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/MouseTrackerTooltip.qml</file>
+    <file alias="qml/TrackLabel.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/TrackLabel.qml</file>
+    <file alias="qml/RangeSliderWaterFall.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/RangeSliderWaterFall.qml</file>
+    <file alias="res.qrc">/home/asit/WORKSPACE/QtProjects/WaterFall/res.qrc</file>
+  </qresource>
+</RCC>
+

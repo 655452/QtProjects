@@ -1,0 +1,1154 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appWaterfallAnimation"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
+			"add_dependencies",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"build/Desktop_Qt_6_8_3-Release/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"/home/asit/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake",
+			"/home/asit/Qt/Tools/CMake/share/cmake-3.30/Modules/FindOpenGL.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/asit/Qt/6.8.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:792:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 945,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 646,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 695,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 297,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 9
+			},
+			{
+				"file" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"file" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 1254,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 596,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 27
+			},
+			{
+				"file" : 12,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 58,
+				"parent" : 29
+			},
+			{
+				"file" : 11,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 61,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 297,
+				"parent" : 7
+			},
+			{
+				"file" : 14,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 55,
+				"parent" : 34
+			},
+			{
+				"file" : 13,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 36
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 39
+			},
+			{
+				"file" : 18,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 18,
+				"line" : 43,
+				"parent" : 41
+			},
+			{
+				"file" : 17,
+				"parent" : 42
+			},
+			{
+				"command" : 14,
+				"file" : 17,
+				"line" : 37,
+				"parent" : 43
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 44
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 322,
+				"parent" : 46
+			},
+			{
+				"file" : 16,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 16,
+				"line" : 13,
+				"parent" : 48
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 322,
+				"parent" : 49
+			},
+			{
+				"file" : 15,
+				"parent" : 50
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 712,
+				"parent" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 710,
+				"parent" : 51
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 647,
+				"parent" : 2
+			},
+			{
+				"command" : 17,
+				"file" : 10,
+				"line" : 916,
+				"parent" : 24
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 3482,
+				"parent" : 55
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 2887,
+				"parent" : 56
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 3488,
+				"parent" : 55
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 2887,
+				"parent" : 58
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 22,
+				"file" : 19,
+				"line" : 1,
+				"parent" : 60
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 823,
+				"parent" : 61
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 62
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 63
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 4361,
+				"parent" : 64
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 4136,
+				"parent" : 65
+			},
+			{
+				"command" : 24,
+				"file" : 10,
+				"line" : 796,
+				"parent" : 24
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3864,
+				"parent" : 67
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3889,
+				"parent" : 67
+			},
+			{
+				"command" : 26,
+				"file" : 10,
+				"line" : 3689,
+				"parent" : 67
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 1500,
+				"parent" : 70
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3855,
+				"parent" : 67
+			},
+			{
+				"command" : 29,
+				"file" : 10,
+				"line" : 850,
+				"parent" : 24
+			},
+			{
+				"command" : 28,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 73
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2547,
+				"parent" : 74
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 75
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3209,
+				"parent" : 55
+			},
+			{
+				"command" : 30,
+				"file" : 10,
+				"line" : 3346,
+				"parent" : 55
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 1723,
+				"parent" : 78
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3402,
+				"parent" : 55
+			},
+			{
+				"command" : 29,
+				"file" : 10,
+				"line" : 3504,
+				"parent" : 55
+			},
+			{
+				"command" : 28,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 81
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2547,
+				"parent" : 82
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 83
+			},
+			{
+				"command" : 31,
+				"file" : 0,
+				"line" : 817,
+				"parent" : 61
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2212,
+				"parent" : 85
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CHARTS_LIB"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/appWaterfallAnimation_autogen/include"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/home/asit/WORKSPACE/QtProjects/WaterfallAnimation"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQml/6.8.3"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQml/6.8.3/QtQml"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtCore/6.8.3"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtCore/6.8.3/QtCore"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQmlMeta"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtQmlWorkerScript"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtCharts"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/asit/Qt/6.8.3/gcc_64/include/QtOpenGLWidgets"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 57,
+			"id" : "appWaterfallAnimation_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "appWaterfallAnimation_copy_res::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "appWaterfallAnimation_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appWaterfallAnimation_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appWaterfallAnimation_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appWaterfallAnimation::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/asit/Qt/6.8.3/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Quick.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Charts.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6QmlMeta.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6QmlWorkerScript.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6QmlModels.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Qml.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Network.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6OpenGLWidgets.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6OpenGL.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Widgets.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Gui.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/home/asit/Qt/6.8.3/gcc_64/lib/libQt6Core.so.6.8.3",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/asit/Qt/6.8.3/gcc_64/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appWaterfallAnimation",
+	"nameOnDisk" : "appWaterfallAnimation",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				12,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				10
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				9,
+				11
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/appWaterfallAnimation_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/meta_types/qt6appwaterfallanimation_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/appwaterfallanimation_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/qrc_qmake_WaterfallAnimation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.rcc/qmlcache/appWaterfallAnimation_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.rcc/qmlcache/appWaterfallAnimation_Main_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/qrc_appWaterfallAnimation_raw_qml_0.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/qmake_WaterfallAnimation.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 86,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/WaterfallAnimation/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 86,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/appWaterfallAnimation_raw_qml_0.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/appWaterfallAnimation_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/meta_types/qt6appwaterfallanimation_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/appwaterfallanimation_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/qrc_qmake_WaterfallAnimation.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.rcc/qmlcache/appWaterfallAnimation_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.rcc/qmlcache/appWaterfallAnimation_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/.qt/rcc/qrc_appWaterfallAnimation_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/appWaterfallAnimation_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3-Release/meta_types/appWaterfallAnimation_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 54,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6qmlmeta_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6charts_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6widgets_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/asit/Qt/6.8.3/gcc_64/metatypes/qt6openglwidgets_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

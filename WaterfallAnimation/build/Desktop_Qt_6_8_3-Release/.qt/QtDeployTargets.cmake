@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appWaterfallAnimation_FILE /home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/appWaterfallAnimation)
+set(__QT_DEPLOY_TARGET_appWaterfallAnimation_TYPE EXECUTABLE)

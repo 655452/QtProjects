@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-493d2f24166fbf0f22fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WaterfallAnimation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-38766f96cb4240174d97.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-853fc7936b585a96f43c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-1cadc168244d493e7516.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-a9b37b99197ec7617bc2.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-6541197f371b62a750e4.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation-Release-7cfa4920892b2c9a73f7.json",
+					"name" : "appWaterfallAnimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_autogen-Release-84c43101cb36fd553af5.json",
+					"name" : "appWaterfallAnimation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_autogen_timestamp_deps-Release-c3272b463fd22fe24910.json",
+					"name" : "appWaterfallAnimation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_copy_qml-Release-6458ce895ef732d93630.json",
+					"name" : "appWaterfallAnimation_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_copy_res-Release-8139956dd4be892e2bad.json",
+					"name" : "appWaterfallAnimation_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_qmlimportscan-Release-dafb7e812e3bba55433a.json",
+					"name" : "appWaterfallAnimation_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_qmllint-Release-26424b059226de1fa6a8.json",
+					"name" : "appWaterfallAnimation_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_qmllint_json-Release-90222c2ace709853c7b2.json",
+					"name" : "appWaterfallAnimation_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_qmllint_module-Release-dd5bb76740343e7fd0b8.json",
+					"name" : "appWaterfallAnimation_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWaterfallAnimation_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWaterfallAnimation_qmltyperegistration-Release-69bc0e528f19ddcf17bb.json",
+					"name" : "appWaterfallAnimation_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appWaterfallAnimation_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appWaterfallAnimation_aotstats_target-Release-801a2d0bc4afab5b1065.json",
+					"name" : "module_appWaterfallAnimation_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release",
+		"source" : "/home/asit/WORKSPACE/QtProjects/WaterfallAnimation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "WaterFallDataModel",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "WaterFallDataModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WaterFallDataModel.h",
+    "outputRevision": 68
+}

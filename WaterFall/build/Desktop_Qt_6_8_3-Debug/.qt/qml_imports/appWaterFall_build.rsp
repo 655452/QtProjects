@@ -1,0 +1,15 @@
+-rootPath
+/home/asit/WORKSPACE/QtProjects/WaterFall
+-cmake-output
+-output-file
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/.qt/qml_imports/appWaterFall_build.cmake
+-importPath
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/WaterFall
+-importPath
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug
+-importPath
+/home/asit/Qt/6.8.3/gcc_64/qml
+-qrcFiles
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/.qt/rcc/qmake_WaterFall.qrc
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/.qt/rcc/appWaterFall_raw_qml_0.qrc
+/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/.qt/rcc/WaterFall.qrc

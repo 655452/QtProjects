@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "WaterFallConstants",
+            "lineNumber": 6,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "a",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "b",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "WaterFallConstants",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WaterFallConstants.h",
+    "outputRevision": 68
+}

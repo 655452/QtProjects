@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appWaterFall_FILE /home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/appWaterFall)
+set(__QT_DEPLOY_TARGET_appWaterFall_TYPE EXECUTABLE)

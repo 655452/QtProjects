@@ -1,0 +1,14 @@
+-rootPath
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation
+-cmake-output
+-output-file
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/.qt/qml_imports/appWaterfallAnimation_build.cmake
+-importPath
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/WaterfallAnimation
+-importPath
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release
+-importPath
+/home/asit/Qt/6.8.3/gcc_64/qml
+-qrcFiles
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/.qt/rcc/qmake_WaterfallAnimation.qrc
+/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/.qt/rcc/appWaterfallAnimation_raw_qml_0.qrc

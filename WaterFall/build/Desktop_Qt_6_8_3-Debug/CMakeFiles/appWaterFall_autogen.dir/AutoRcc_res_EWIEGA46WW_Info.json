@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/appWaterFall_autogen",
+	"CMAKE_BINARY_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall",
+	"CMAKE_SOURCE_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/appWaterFall_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/qml/MouseTrackerTooltip.qml",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/qml/RangeSliderVersions.qml",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/qml/TrackLabel.qml",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/qml/RangeSliderWaterFall.qml",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/resize.png",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/reset.png",
+		"/home/asit/WORKSPACE/QtProjects/WaterFall/zoom.png"
+	],
+	"LOCK_FILE" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/appWaterFall_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/home/asit/Qt/6.8.3/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/asit/WORKSPACE/QtProjects/WaterFall/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/appWaterFall_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/asit/WORKSPACE/QtProjects/WaterFall/res.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qml/Main.qml">/home/asit/WORKSPACE/QtProjects/WaterFall/qml/Main.qml</file>
+  </qresource>
+</RCC>
+

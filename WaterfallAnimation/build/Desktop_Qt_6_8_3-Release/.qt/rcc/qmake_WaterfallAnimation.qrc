@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/WaterfallAnimation">
+    <file alias="qmldir">/home/asit/WORKSPACE/QtProjects/WaterfallAnimation/build/Desktop_Qt_6_8_3-Release/WaterfallAnimation/qmldir</file>
+  </qresource>
+</RCC>
+

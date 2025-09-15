@@ -1,0 +1,9 @@
+module WaterFall
+typeinfo appWaterFall.qmltypes
+prefer :/qt/qml/WaterFall/
+Main 1.0 qml/Main.qml
+WaterFallDisplay 1.0 qml/WaterFallDisplay.qml
+MouseTrackerTooltip 1.0 qml/MouseTrackerTooltip.qml
+TrackLabel 1.0 qml/TrackLabel.qml
+RangeSliderWaterFall 1.0 qml/RangeSliderWaterFall.qml
+
